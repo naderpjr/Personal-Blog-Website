@@ -96,7 +96,7 @@ const slidePrev = function () {
 
 sliderPrevBtn.addEventListener('click', slidePrev)
 
-// responsive 
+
 
 window.addEventListener("resize", function () {
     totalSliderVisibleItems = Number(getComputedStyle(slider).getPropertyValue("--slider-items"));
